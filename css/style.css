@@ -1,0 +1,267 @@
+/* FONT USEAGE GUIDE */
+          
+            font-family: 'Arvo', serif;
+            font-family: 'Covered By Your Grace', cursive;
+/* FONT USEAGE GUIDE */
+
+
+/* LIQUID LAYOUT CODE */
+
+        * {
+            font-family: 'Arvo', serif;
+            color: #000000;
+            text-align: center;}
+			
+    body {
+            width: 90%;
+            margin: 0 auto;
+            background-image: url(../images/Clouds.jpg);
+            border: 3px double #000000;
+            }
+
+    #content {
+            overflow: auto;}
+			
+    #nav, #feature, #footer {
+            margin: 1%;}
+			
+    .column1, .column2, .column3{
+            width: 31.3%;
+            float: left;
+            margin: 1%;} 
+			
+    .column3 {
+            margin-right: 0%;}
+			
+    #nav, #footer {
+            background-color: #efefef;
+            padding: 0.5em 0;}
+		
+    #feature {
+            height: 250px;
+            padding-top: 20px; 
+            line-height: 150%;
+            text-align: justify;
+            margin-bottom: 1em;
+            background-color: #efefef;
+            font-family: 'Arvo', serif;
+            }
+
+			
+    #feature, .article, .figure {
+            padding-top: 20px; 
+            line-height: 150%;
+            margin-bottom: 1em;
+            background-color: #efefef;
+            font-family: 'Arvo', serif;
+            }
+
+     p {
+            text-align: center;
+            font-family: 'Arvo', serif;
+            letter-spacing: .5px;
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            } 
+
+
+/* END LIQUID LAYOUT CODE */
+
+    h1      {  
+            font-family: 'Covered By Your Grace', cursive;
+            color: #c93413;
+            font-size: 72px;
+            text-align: center;
+            }
+
+    h3      {
+            font-family: 'Covered By Your Grace', cursive;
+            font-size: 20px;
+            text-align: center;}
+    
+            /* begin nav */			
+
+    ul      {
+            width: 570px;
+            padding: 15px;
+            margin: 0px auto 0px auto;
+            border-top: 2px solid #000;
+            border-bottom: 1px solid #000;
+            text-align: center;}
+			
+    li      {
+            display: inline;
+            margin: 0px 3px;}
+
+        
+    a       {
+            color: #000000;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 6px 18px 5px 18px;}
+			
+    a:hover, a.on {
+            color: #c93413;
+            background-color: #ffffff;}
+            
+            /* end nav */
+  
+            /* begin index images */
+
+.index      {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropButterPenn.jpg");
+            background-size: cover;
+            background-position: center center;         
+            }
+
+.index2     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropFairway.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.index3     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropDoor.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.index4     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropMapleDonuts.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.index5     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropFirework.png");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.index6    {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropYorkRev.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+            /* end index images */
+            
+
+            /* begin taste images */
+
+.figure img {
+            width:100%;
+            }
+
+.food      {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropBeets.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+          
+            /* title: instead of alt for assessibility */
+
+.food2
+            {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropMelon.jpg");
+            background-size: cover;
+            background-position: center center;}
+
+.food3
+            {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropDumplings.jpg");
+            background-size: cover;
+            background-position: center center;}
+
+.food4
+            {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropSweetBol.jpg");
+            background-size: cover;
+            background-position: center center;}
+
+.food5
+            {
+            width:100%;
+            height:200px;
+            background-image: url("../images/Croppretzels.jpg");
+            background-size: cover;
+            background-position: center center;}
+
+.food6
+            {
+            width:100%;
+            height:200px;
+            background-image:url("../images/cropveggies.jpg");
+            background-size: cover;
+            background-position: center center;}
+
+
+            /* end taste images */
+
+            /* start site images */
+
+.site     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropMarket.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.site2     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropArt.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.site3    {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropCodorus.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+
+.site4     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropHarleyParking.jpg");         
+            background-size: cover;
+            background-position: center center;
+            }
+.site5     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropGates.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
+.site6     {
+            width:100%;
+            height:200px;
+            background-image: url("../images/CropMeter.jpg");
+            background-size: cover;
+            background-position: center center;
+            }
